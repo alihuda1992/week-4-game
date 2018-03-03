@@ -1,0 +1,38 @@
+#body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/light-veneer.png);
+    background-repeat: repeat;
+}
+
+.heading {
+    font-size: 30px;
+    clear:all;
+}
+
+#crystalheading {
+    background-color: darkblue;
+    color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#instructions {
+background-color: darkblue;
+color: white;
+font-size: 16px;
+padding-left: 15px;
+}
+
+#number {
+    font-size: 22px;
+}
+
+#wins {
+    font-size: 22px;
+    clear: all;
+}
+
+#losses{
+    font-size: 22px;
+    padding-left: 355px;
+}
