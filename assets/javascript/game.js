@@ -1,13 +1,10 @@
-var winning;
-var losses;
-var number;
+var winning = 0;
+var losses =0;
+var number =0;
 
-wins= 0;
-losses = 0;
-number = 0;
+window.onload = function() {
+document.getElementById("W").innerHTML=winning;
+document.getElementById("L").innerHTML=losses;
+document.getElementById("N").innerHTML= number;
+}
 
-        document.getElementById("W").innerHTML=wins;
-        document.getElementById("L").innerHTML=losses;
-        document.getElementById("N").innerHTML=number;       
-   
-        
