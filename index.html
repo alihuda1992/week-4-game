@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    //<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body id=body>
 <div class = heading>
-    <div class = row>
+    <div class = row id=heading>
         <div class = col-md-3>
                 <h1 id = crystalheading>
                         Crystal Collector! 
@@ -27,33 +28,64 @@
     
     <br><br><br>
     
-        <div class = col-md-6> 
+        <div class = col-md-8> 
             <p id= instructions>
-                <strong>Bullshit Instructions</strong>
+                <strong>How to play the game</italic></strong>
             <br>
                 These are the instructions to the crystal game. Read them carefully: Don't be a dumbass!<br>
-                The objective is to use the crystals below to try and match the target value.<br>
+                The objective is to use the "crystals" below to try and match the target value.<br>
                 Don't go over the target or you will lose!<br>
             </p>
         </div>
 </div>
 
 
-    <div class = row>
+    <div class = row id=numbers>
 
         <div class = col-md-6>
-            <p>Number: <span id="N"></span></p>
+            <p>Target Value: <span id="N"></span></p>
+            <br>
+            <p>Your Number: <span id="y"></span></p>
         </div>
 
         <div class= col-md-6>
         
             <p>Wins: <span id="W"></span></p>
+            <br>
             <p>Losses: <span id="L"></span></p>
 
         </div>
     
        
     </div>
+
+    <div class = row id=buttons>
+        <br><br><br>
+
+        <div class = col-md-3>
+                <button type="button" class="btn btn-default btn-lg" id=button1>
+                <span class="glyphicon glyphicon-triangle-top"></span> 
+                </button>
+        </div>
+        <div class = col-md-3>
+                    <button type="button" class="btn btn-default btn-lg" id=button2>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    </button>
+         </div>
+
+         <div class = col-md-3>
+                <button type="button" class="btn btn-default btn-lg" id=button3>
+                <span class="glyphicon glyphicon-triangle-left"></span>
+                </button>
+        </div>
+
+        <div class = col-md-3>
+                <button type="button" class="btn btn-default btn-lg" id=button4>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                </button>
+        </div>
+
+    </div> 
 
     
 </body>

@@ -1,30 +1,31 @@
 #body {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/light-veneer.png);
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
     background-repeat: repeat;
+    font-family: 'Lobster', cursive;
+}
+
+#heading {
+    margin-left:15px;
+    
 }
 
 .heading {
-    font-size: 30px;
-    clear:all;
-}
+    font-size: 30px; 
 
-#crystalheading {
-    background-color: darkblue;
-    color: #ebebeb;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
 }
 
 #instructions {
-background-color: darkblue;
-color: white;
-font-size: 16px;
+margin-top: -30px;
+font-size: 20px;
 padding-left: 15px;
+font-family: 'Quicksand', sans-serif;
+border-style: dotted;
+border-width: 4px;
 }
 
 #number {
     font-size: 22px;
+    
 }
 
 #wins {
@@ -35,4 +36,13 @@ padding-left: 15px;
 #losses{
     font-size: 22px;
     padding-left: 355px;
+}
+
+#buttons {
+    margin-left :100px;
+}
+
+#numbers {
+    margin-top: 15px;
+    margin-left: 10px;
 }
