@@ -6,12 +6,10 @@
 
 #heading {
     margin-left:15px;
-    
 }
 
 .heading {
     font-size: 30px; 
-
 }
 
 #instructions {
@@ -24,8 +22,7 @@ border-width: 4px;
 }
 
 #number {
-    font-size: 22px;
-    
+    font-size: 22px; 
 }
 
 #wins {
@@ -39,10 +36,10 @@ border-width: 4px;
 }
 
 #buttons {
-    margin-left :100px;
+    margin-left :425px;
 }
 
 #numbers {
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 75px;
 }
