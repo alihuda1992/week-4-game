@@ -15,6 +15,7 @@ $(document).ready(function () {
     $("#number").text(number);
     $("#your").text(userInput);
 
+    
 
 
     $("#button1").click(function () {
@@ -32,6 +33,14 @@ $(document).ready(function () {
             winning = winning + valueholder;
             $("#win").text(winning);
         }
+
+        if (losses > 1) {
+            alert("You lost! Please reload to play again");
+        }else if (winning > 1) {
+            alert("You won! please reload to play again");
+        }
+
+
     });
 
     $("#button2").click(function () {
@@ -49,6 +58,17 @@ $(document).ready(function () {
             winning = winning + valueholder;
             $("#win").text(winning);
         }
+
+
+        if (losses > 1) {
+            alert("You lost! Please reload to play again");
+        }
+
+        if (winning > 1) {
+            alert("You won! please reload to play again");
+        }
+
+
     });
 
     $("#button3").click(function () {
@@ -66,6 +86,15 @@ $(document).ready(function () {
             winning = winning + valueholder;
             $("#win").text(winning);
         }
+
+        if (losses > 1) {
+            alert("You lost! Please reload to play again");
+        }
+
+        if (winning > 1) {
+            alert("You won! please reload to play again");
+        }
+
     });
 
     $("#button4").click(function () {
@@ -83,7 +112,20 @@ $(document).ready(function () {
             winning = winning + valueholder;
             $("#win").text(winning);
         }
+
+        if (losses > 1) {
+            alert("You lost! Please reload to play again");
+        }
+
+        if (winning > 1) {
+            alert("You won! please reload to play again");
+        }
+
     });
+
+
+
+
 });
 
 
